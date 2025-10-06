@@ -84,43 +84,43 @@ const GENRE_DATA = {
 const QNA_DATA = [
     {
       q: '1. 당신을 가장 강렬하게 이끄는 리듬의 속도와 질감은?',
-      A: { text: '선택 A: 복잡하게 끊어지며 질주하는 속도감 (기계적인 움직임)', audio: 'audio/neurofunk_1.mp3', scores: { '뉴로펑크': 3, '글리치 합': 2, '덥스텝': 1 } },
-      B: { text: '선택 B: 일정하고 부드러우며, 춤추기 좋은 중간 템포의 그루브 (안정적인 흐름)', audio: 'audio/deephouse_1.mp3', scores: { '딥 하우스': 3, 'UK 개러지': 2, '덥 테크노': 1 } }
+      A: { text: '복잡하게 끊어지며 질주하는 속도감', audio: 'audio/neurofunk_1.mp3', scores: { '뉴로펑크': 3, '글리치 합': 2, '덥스텝': 1 } },
+      B: { text: '일정하고 부드러우며, 안정적인 그루브', audio: 'audio/deephouse_1.mp3', scores: { '딥 하우스': 3, 'UK 개러지': 2, '덥 테크노': 1 } }
     },
     {
       q: '2. 당신을 압도하는 저음(베이스)의 존재 방식은?',
-      A: { text: '선택 A: 묵직하게 긁히거나 울렁거리는 베이스 (물리적 진동)', audio: 'audio/dubstep_1.mp3', scores: { '덥스텝': 3, '글리치 합': 2, '뉴로펑크': 1 } },
-      B: { text: '선택 B: 잔향으로 공간을 채우는 미니멀한 울림 (몽환적이고 은은한 효과)', audio: 'audio/dubtechno_1.mp3', scores: { '덥 테크노': 3, '앰비언트': 2, '딥 하우스': 1 } }
+      A: { text: '묵직하게 긁히거나 울렁거리는 베이스', audio: 'audio/dubstep_1.mp3', scores: { '덥스텝': 3, '글리치 합': 2, '뉴로펑크': 1 } },
+      B: { text: '잔향으로 공간을 채우는 미니멀한 울림', audio: 'audio/dubtechno_1.mp3', scores: { '덥 테크노': 3, '앰비언트': 2, '딥 하우스': 1 } }
     },
     {
       q: '3. 리듬 구성에서 어떤 스타일이 더 흥미롭나요?',
-      A: { text: '선택 A: 엇박이 많고 톡톡 튀는, 스윙감 있는 도시적 움직임', audio: 'audio/ukgarage_1.mp3', scores: { 'UK 개러지': 3, '딥 하우스': 2 } },
-      B: { text: '선택 B: 묵직한 디지털 오류나 쪼개지는 노이즈가 섞인 둔탁한 리듬', audio: 'audio/glitchhop_1.mp3', scores: { '글리치 합': 3, '덥스텝': 1 } }
+      A: { text: '엇박이 많고 톡톡 튀는, 스윙감 있는 도시적 움직임', audio: 'audio/ukgarage_1.mp3', scores: { 'UK 개러지': 3, '딥 하우스': 2 } },
+      B: { text: '묵직한 디지털 오류나 쪼개지는 노이즈가 섞인 둔탁한 리듬', audio: 'audio/glitchhop_1.mp3', scores: { '글리치 합': 3, '덥스텝': 1 } }
     },
     {
       q: '4. 곡의 멜로디/화성 구성에서 더 끌리는 분위기는?',
-      A: { text: '선택 A: 웅장하고 따뜻한 아날로그 신스 멜로디 (과거 영화 속의 감성)', audio: 'audio/synthwave_1.mp3', scores: { '신스웨이브': 3, '딥 하우스': 1 } },
-      B: { text: '선택 B: 차갑고 신경질적인 신시사이저와 거친 기계적인 소리 (어두운 미래)', audio: 'audio/neurofunk_2.mp3', scores: { '뉴로펑크': 3, '덥스텝': 1 } }
+      A: { text: '웅장하고 따뜻한 아날로그 신스 멜로디 (과거 영화 속의 감성)', audio: 'audio/synthwave_1.mp3', scores: { '신스웨이브': 3, '딥 하우스': 1 } },
+      B: { text: '차갑고 신경질적인 신시사이저와 거친 기계적인 소리 (어두운 미래)', audio: 'audio/neurofunk_2.mp3', scores: { '뉴로펑크': 3, '덥스텝': 1 } }
     },
     {
       q: '5. 당신이 음악을 통해 원하는 궁극적인 감정 상태는?',
-      A: { text: '선택 A: 미지의 공간에서 오는 고요함, 사색, 그리고 무한한 여백', audio: 'audio/ambient_1.mp3', scores: { '앰비언트': 3, '덥 테크노': 1, '딥 하우스': 1 } },
-      B: { text: '선택 B: 몸을 강하게 치는 듯한 물리적인 충격과 압도적인 진동', audio: 'audio/dubstep_2.mp3', scores: { '덥스텝': 3, '뉴로펑크': 1, '글리치 합': 1 } }
+      A: { text: '미지의 공간에서 오는 고요함, 사색, 그리고 무한한 여백', audio: 'audio/ambient_1.mp3', scores: { '앰비언트': 3, '덥 테크노': 1, '딥 하우스': 1 } },
+      B: { text: '몸을 강하게 치는 듯한 물리적인 충격과 압도적인 진동', audio: 'audio/dubstep_2.mp3', scores: { '덥스텝': 3, '뉴로펑크': 1, '글리치 합': 1 } }
     },
     {
       q: '6. 사운드가 만들어내는 공간의 느낌은?',
-      A: { text: '선택 A: 잘게 썰린 보컬과 엇박이 어우러져 경쾌하게 뛰어오르는 그루브', audio: 'audio/ukgarage_2.mp3', scores: { 'UK 개러지': 3, '딥 하우스': 1 } },
-      B: { text: '선택 B: 단순한 리듬과 소리가 반복되며 만들어내는 최면적인 경험', audio: 'audio/dubtechno_2.mp3', scores: { '덥 테크노': 3, '앰비언트': 2 } }
+      A: { text: '잘게 썰린 보컬과 엇박이 어우러져 경쾌하게 뛰어오르는 그루브', audio: 'audio/ukgarage_2.mp3', scores: { 'UK 개러지': 3, '딥 하우스': 1 } },
+      B: { text: '단순한 리듬과 소리가 반복되며 만들어내는 최면적인 경험', audio: 'audio/dubtechno_2.mp3', scores: { '덥 테크노': 3, '앰비언트': 2 } }
     },
     {
       q: '7. 멜로디 전개의 방식은?',
-      A: { text: '선택 A: 극적인 멜로디 전개와 아날로그 신스로 만들어내는 화려한 빌드업', audio: 'audio/synthwave_2.mp3', scores: { '신스웨이브': 3, '글리치 합': 1 } },
-      B: { text: '선택 B: 물결처럼 부드럽게 흐르며 몸을 감싸는 듯한 몽환적인 감각', audio: 'audio/deephouse_2.mp3', scores: { '딥 하우스': 2, '앰비언트': 2 } }
+      A: { text: '극적인 멜로디 전개와 아날로그 신스로 만들어내는 화려한 빌드업', audio: 'audio/synthwave_2.mp3', scores: { '신스웨이브': 3, '글리치 합': 1 } },
+      B: { text: '물결처럼 부드럽게 흐르며 몸을 감싸는 듯한 몽환적인 감각', audio: 'audio/deephouse_2.mp3', scores: { '딥 하우스': 2, '앰비언트': 2 } }
     },
     {
       q: '8. 비트 위에서 느껴지는 움직임의 특성은?',
-      A: { text: '선택 A: 질주하고, 날카로우며, 금속성 소리가 튀는 기계적인 움직임', audio: 'audio/neurofunk_2.mp3', scores: { '뉴로펑크': 3, '글리치 합': 2 } },
-      B: { text: '선택 B: 잔향이 길게 남는 끝없는 울림의 공간, 리듬보다 질감', audio: 'audio/ambient_2.mp3', scores: { '앰비언트': 3, '덥 테크노': 1 } }
+      A: { text: '질주하고, 날카로우며, 금속성 소리가 튀는 기계적인 움직임', audio: 'audio/neurofunk_2.mp3', scores: { '뉴로펑크': 3, '글리치 합': 2 } },
+      B: { text: '잔향이 길게 남는 끝없는 울림의 공간, 리듬보다 질감', audio: 'audio/ambient_2.mp3', scores: { '앰비언트': 3, '덥 테크노': 1 } }
     }
 ];
 
@@ -525,6 +525,7 @@ function handleKakaoShare() {
         ],
     });
 }
+
 
 
 
